@@ -26,6 +26,7 @@ class Monkeys extends Animals {
 
 class Overriding {
 	public static void main(String[] args) {
+		// Dynamic Bindings
 		Animals d = new Dogs();
 		Animals c = new Cats();
 		Animals m = new Monkeys();
